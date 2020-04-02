@@ -2,7 +2,7 @@
 
 Computer vision es como las máquinas perciben el mundo y responden a él.
 
-Consiste en reconocer partones visuales.
+Consiste en reconocer patrones visuales.
 
 Ejemplos de aplicaciones:
 
