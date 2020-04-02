@@ -1,6 +1,6 @@
 # Representación y clasificación de imágenes
 
-### ¿Cuáles son los pasos que sigue una aplicación de computer vision para reconocer patrones en la imagen?:
+### ¿Cuáles son los pasos que sigue una aplicación de computer vision para reconocer patrones en la imagen? (Ver "day_night_image_classifier/classifier.ipynb" para observarlo en código)
 
 <img src="/home/aaronespasa/Documents/computer-vision/Image-Representation-Classification/Images/computer-vision-pipeline.png" style="zoom: 33%;" />
 
