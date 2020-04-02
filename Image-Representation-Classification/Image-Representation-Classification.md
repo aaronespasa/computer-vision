@@ -47,3 +47,14 @@ En el formato de color HSV:
 - El canal Value (V) presenta una gran variación frente a diferentes condiciones de luz.
 
 Por lo tanto, debemos tener presente el formato HSV ante imágenes con gran variación de luminosidad.
+
+### Distinción entre imágenes
+
+Hay gran cantidad de características que se pueden distinguir entre unas imágenes u otras, a estos rasgos los denominamos features. Este es un componente medible de una imagen o un objeto que, idealmente, es único y reconocible bajo ciertas condiciones: La condición puede ser la variación de la luz o del ángulo de la cámara.
+
+Las imágenes pueden estar etiquetadas con valores de categorización (como "perro", "día",...) propias principalmente de muchos de los datasets creados o con etiquetas numéricas que permiten ser fácilmente comparadas y guardas en la memoria, además de que muchos algoritmos de ML no usan datos categorizados.
+
+Las etiquetas numéricas se dividen en dos enfoques:
+
+1. **Integer Encoding**: Asignar a cada categoría un entero (day = 1, night = 0). Es una buena forma de separar datos binarios como en el ejemplo.
+2. **One-hot Encoding**: Se suele usar cuando hay más de dos valores para separar. Una etiqueta one-hot constituye una lista en 1D cuya longitud es la del número de clases. Ej.: En una lista con ["cat", "tiger", "hippopotamus", "dog"] la lista tendría 4 elementos con 3 ceros y 1 uno indicando qué clase es una cierta imagen. [0, 1, 0, 0] representaría la clase "tiger".
