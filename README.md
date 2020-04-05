@@ -16,7 +16,7 @@ Algunos de los conceptos aprendidos son:
    | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
    | <img src="https://github.com/aaronespasa/computer-vision/blob/master/Convolutional-Filters-Edge-Detection/Images/canny-edge-detection-project.png" style="zoom: 50%;" /> | <img src="https://github.com/aaronespasa/computer-vision/blob/master/Convolutional-Filters-Edge-Detection/Images/hough-line-detection-project.png" style="zoom: 50%;" /> | <img src="https://github.com/aaronespasa/computer-vision/blob/master/Convolutional-Filters-Edge-Detection/Images/haar-cascade-face-detection-project.png" style="zoom: 50%;" /> |
 
-2. **Tipos de features y segmentación de la imagen**:
+3. **Tipos de features y segmentación de la imagen**:
 
 |              Harris Corner Detection      |   Contour Detection Features    | K-means Clustering |
    | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
