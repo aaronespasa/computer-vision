@@ -30,7 +30,7 @@ Para más información ver [Harris Corner Detection](https://opencv-python-tutro
 
 ### Dilatación y Erosión
 
-<img src="https://github.com/aaronespasa/computer-vision/blob/master/Features-Types-Image-Segmentation/Images/dilatation-erosion.png"/>
+<img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Feature-Types-Image-Segmentation/Images/dilatation-erosion.png"/>
 
 ​																	Imagen de Udacity
 
@@ -59,7 +59,7 @@ erosion = cv2.erode(image, kernel, iterations = 1)
 
 #### Opening
 
-<img src="https://github.com/aaronespasa/computer-vision/blob/master/Features-Types-Image-Segmentation/Images/opening.png" style="zoom: 67%;" />
+<img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Feature-Types-Image-Segmentation/Images/opening.png" style="zoom: 67%;" />
 
 ​																	Imagen de Udacity
 
@@ -71,7 +71,7 @@ opening = cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)
 
 #### Closing
 
-<img src="https://github.com/aaronespasa/computer-vision/blob/master/Features-Types-Image-Segmentation/Images/closing.png" style="zoom: 67%;" />
+<img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Feature-Types-Image-Segmentation/Images/closing.png" style="zoom: 67%;" />
 
 ​																	Imagen de Udacity
 
@@ -159,7 +159,7 @@ K-Means es un algoritmo de aprendizaje no supervisado, es decir, no es necesario
 
 Separa una imagen en segmentos agrupando los puntos que comparten rasgos similares.
 
-<img src="https://github.com/aaronespasa/computer-vision/blob/master/Features-Types-Image-Segmentation/Images/rgb_dataset.png" style="zoom: 33%;" />
+<img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Feature-Types-Image-Segmentation/Images/rgb_dataset.png" style="zoom: 33%;" />
                                     Imagen de Udacity
                                     
 Si le decimos al algoritmo que separe el dataset de una imagen rgb en 3 clusters, el procedimiento que hará será el siguiente:

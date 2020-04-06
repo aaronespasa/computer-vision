@@ -8,7 +8,7 @@ La intensidad es una medida, al igual que la luminosidad, de lo claro y lo oscur
 
 En el ejemplo presentado a continuación podemos ver ese salto de la intensidad respecto de las personas y el fondo.
 
-![](https://github.com/aaronespasa/computer-vision/blob/master/Convolutional-Filters-Edge-Detection/Images/grayscale-example.png)
+![](https://github.com/aaronespasa/computer-vision/blob/master/2.Convolutional-Filters-Edge-Detection/Images/grayscale-example.png)
 
 Esta **tasa de cambio** de la intensidad en el campo del computer vision se le denomina como **frecuencia**. De esta forma, los componentes con una alta frecuencia también corresponden a los bordes de un objeto en las imágenes, lo que nos ayuda a clasificar a estos objetos.
 
@@ -16,7 +16,7 @@ Como podemos utilizar la **Transformada de Fourier** ([Introducción visual a la
 
 En el sonido varía la intensidad sonora con respecto al tiempo. Haciendo una comparación con el sonido, en una imagen el tiempo sería la localización del píxel y la intensidad sería en este caso la de la escala de grises yendo del 0 al 255.
 
-![](https://github.com/aaronespasa/computer-vision/blob/master/Convolutional-Filters-Edge-Detection/Images/image-ft.jpg)
+![](https://github.com/aaronespasa/computer-vision/blob/master/2.Convolutional-Filters-Edge-Detection/Images/image-ft.jpg)
 
 Si quieres ver cómo aplicarlas con OpenCV échale un ojo al archivo "fourier-transforms.ipynb".
 
@@ -31,7 +31,7 @@ Los **filtros high-pass** nos permiten agudizar una imagen para así poder mejor
 
 Para realizar un filtro que nos permita detectar bordes, una imagen de entrada (F(x,y)) es "convolucionada" con el kernel. (Esa **convolución** consiste en tomar «**grupos de píxeles cercanos»** de la imagen de entrada e ir realizando el producto escalar en el kernel.). Para verlo visualmente: [CNN Visualization](https://www.youtube.com/watch?time_continue=19&v=f0t-OCG79-U&feature=emb_title)
 
-![](https://github.com/aaronespasa/computer-vision/blob/master/Convolutional-Filters-Edge-Detection/Images/convolutional-kernels.png)
+![](https://github.com/aaronespasa/computer-vision/blob/master/2.Convolutional-Filters-Edge-Detection/Images/convolutional-kernels.png)
 
 ​																Imagen de Udacity
 
@@ -95,7 +95,7 @@ Uno de los detectores de bordes más famosos para solucionar este problema es el
 
    
 
-   ![](https://github.com/aaronespasa/computer-vision/blob/master/Convolutional-Filters-Edge-Detection/Images/canny-edge-detection.png)
+   ![](https://github.com/aaronespasa/computer-vision/blob/master/2.Convolutional-Filters-Edge-Detection/Images/canny-edge-detection.png)
    
    ​																			Imagen de Udacity
    
@@ -109,7 +109,7 @@ Trasforma los datos de la imagen de un sistema de coordenadas x,y en un espacio 
 
 Una línea en el espacio imagen (sist. de coord. x,y) se representaría en el espacio de Hough con un punto.
 
-![](https://github.com/aaronespasa/computer-vision/blob/master/Convolutional-Filters-Edge-Detection/Images/hough-space.png)
+![](https://github.com/aaronespasa/computer-vision/blob/master/2.Convolutional-Filters-Edge-Detection/Images/hough-space.png)
 
 ​																Imagen de Udacity
 

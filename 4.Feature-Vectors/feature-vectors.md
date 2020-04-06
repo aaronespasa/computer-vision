@@ -6,7 +6,7 @@ Para obtener vectores de características podemos observar la dirección de vari
 
 Ejemplos de gradient features:
 
-<img src="https://github.com/aaronespasa/computer-vision/blob/master/Feature-Vectors/Images/gradient-features.png" style="zoom:50%"/>
+<img src="https://github.com/aaronespasa/computer-vision/blob/master/4.Feature-Vectors/Images/gradient-features.png" style="zoom:50%"/>
 
 
 
@@ -21,7 +21,7 @@ Su procedimiento es el siguiente:
 1. Localiza en una imagen sus keypoints, es decir, pequeñas regiones de ella que la distinguen de otras. Un ejemplo de estos son las esquinas donde los valores de los píxeles cambian drásticamente de claro a oscuro o viceversa.
 2. Después, el algoritmo calcula los vectores binarios de características (ya que sólo contienen 0s y 1s) correspondientes para cada keypoint. Al conseguir varios vectores de características es más sencillo identicar una área más grande e incluso un objeto en específico de una imagen.
 
-<img src="https://github.com/aaronespasa/computer-vision/blob/master/Feature-Vectors/Images/orb.png" style="zoom:50%"/>
+<img src="https://github.com/aaronespasa/computer-vision/blob/master/4.Feature-Vectors/Images/orb.png" style="zoom:50%"/>
 
 
 
