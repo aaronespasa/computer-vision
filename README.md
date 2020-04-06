@@ -20,7 +20,7 @@ Algunos de los conceptos aprendidos son:
 
 |              Harris Corner Detection      |   Contour Detection Features    | K-means Clustering |
    | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-   | <img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Features-Types-Image-Segmentation/Images/harris-corner-detection-project.png" style="zoom: 50%;" /> | <img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Features-Types-Image-Segmentation/Images/contour-detection-project.png" style="zoom: 50%;" /> | <img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Features-Types-Image-Segmentation/Images/k-means-project.png" style="zoom: 50%;" /> |
+   | <img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Feature-Types-Image-Segmentation/Images/harris-corner-detection-project.png" style="zoom: 50%;" /> | <img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Feature-Types-Image-Segmentation/Images/contour-detection-project.png" style="zoom: 50%;" /> | <img src="https://github.com/aaronespasa/computer-vision/blob/master/3.Feature-Types-Image-Segmentation/Images/k-means-project.png" style="zoom: 50%;" /> |
    
  4.  **Feature Vectors**:
 
