@@ -5,7 +5,7 @@ Apuntes sobre Computer Vision y proyectos realizados en Udacity
 
    |                      Parte de la teoría                      |           Clasificador de imágenes en día y noche            |
    | :----------------------------------------------------------: | :----------------------------------------------------------: |
-   | <img src="https://github.com/aaronespasa/computer-vision/blob/master/readme_images/img_representation_classification-theory.png" style="zoom: 50%;" /> | <img src="https://github.com/aaronespasa/computer-vision/blob/master/readme_images/day_night_image_classifier_output.png" style="zoom: 50%;" /> |
+   | <img src="https://github.com/aaronespasa/computer-vision/blob/master/1.Image-Representation-Classification/Images/img_representation_classification-theory.png" style="zoom: 50%;" /> | <img src="https://github.com/aaronespasa/computer-vision/blob/master/1.Image-Representation-Classification/Images/day_night_image_classifier_output.png" style="zoom: 50%;" /> |
 
 
 2. **Filtros convolucionales y detección de bordes**:
