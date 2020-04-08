@@ -1,0 +1,25 @@
+#This file defines all the categories
+
+introduction:
+  name: Introducción
+  description: Desc0
+
+image-representation-classification:
+  name: 1. Representación y clasificación de imágenes
+  description: Desc1
+
+convolutional-filters-edge-detection:
+  name: 2. Filtros convolucionales y detección de bordes
+  description: Desc2
+
+features-types-image-segmentation:
+  name: 3. Tipos de características y segmentación de imágenes
+  description: Desc3
+
+feature-vectors:
+  name: 4. Vectores de características
+  description: Desc4
+
+cnn-layers-feature-visualization:
+  name: 5. Capas de CNN y visualización de características
+  description: Desc5
