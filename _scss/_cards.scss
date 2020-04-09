@@ -16,7 +16,7 @@
 }
 
 .card {
-  border: 1px solid $border-color;
+  // border: 1px solid $card-border-color-dark;
   background: $white;
   border-radius: $border-radius-lg;
   display: flex;
@@ -108,4 +108,9 @@
       }
     }
   }
+}
+
+// Dark mode
+[data-theme="dark"] .card{
+  background: $card-bg-color-dark;
 }

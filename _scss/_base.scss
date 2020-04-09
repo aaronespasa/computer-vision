@@ -20,6 +20,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+[data-theme="dark"] {
+  background: $bg-color-dark;
+  color: $p-color-dark;
+}
+
 a {
   color: $link-color;
   outline: none;

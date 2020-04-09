@@ -13,16 +13,13 @@ code {
   width: 100%;
 }
 
-.code {
+// Dark mode
+[data-theme="dark"] code {
+  background: $code-bg-color-dark;
+}
 
-  &::before {
-    color: $gray-color;
-    content: attr(data-lang);
-    font-size: $font-size-sm;
-    position: absolute;
-    right: $layout-spacing;
-    top: $unit-h;
-  }
+.highlight {
+  border-radius: $border-radius;
 }
 
 // Monokai code style
@@ -327,7 +324,7 @@ code {
 
 /* Literal.Number.Integer.Long */
 
-.highlight .gh {}
+// .highlight .gh {}
 
 /* Generic Heading & Diff Header */
 .highlight .gu {

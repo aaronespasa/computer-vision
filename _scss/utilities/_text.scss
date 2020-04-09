@@ -121,3 +121,8 @@
 a:hover .arrow-hover {
   transform: translateX(100px);
 }
+
+// Dark mode
+[data-theme="dark"] #anglesvg path {
+  fill: $bg-color-dark;
+}

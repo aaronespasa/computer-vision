@@ -12,7 +12,7 @@
 // Text color utility mixin
 @mixin text-color-variant($name: ".text-primary", $color: $primary-color) {
   #{$name} {
-    color: $color !important;
+    color: $white;
   }
 
   a#{$name} {

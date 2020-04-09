@@ -10,9 +10,14 @@
   z-index: -1;
 }
 
+// Dark mode
+[data-theme="dark"] .particles-js-canvas-el {
+  background: $header-bg-dark;
+}
+
 .header-bg-img {
   background-color: $primary-color;
-  min-height: 340px;
+  min-height: 400px;
 }
 
 .nav-gradient {

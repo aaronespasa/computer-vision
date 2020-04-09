@@ -31,7 +31,7 @@ $border-color: $gray-color-light !default;
 $border-color-dark: darken($border-color, 10%) !default;
 $border-color-light: lighten($border-color, 8%) !default;
 $bg-color: lighten($gray-color, 35%) !default;
-$bg-color-dark: darken($bg-color, 3%) !default;
+// $bg-color-dark: darken($bg-color, 3%) !default;
 
 // Control colors
 $success: #6CBC2B !default;
@@ -56,6 +56,16 @@ $body-font-color: lighten($dark-color, 5%) !default;
 $link-color: $primary-color !default;
 $link-color-dark: darken($link-color, 10%) !default;
 $link-color-light: lighten($link-color, 10%) !default;
+
+// Dark theme
+$bg-color-dark: #141d28;
+$header-bg-dark:#0e1520;
+$footer-color-dark: #101824;
+$card-bg-color-dark: #111B28;
+$code-bg-color-dark: #172232;
+$h-color-dark: #F7B561;
+$p-color-dark: #A9AAAB;
+$a-color-dark: rgb(222, 222, 223);
 
 // Fonts
 // Credit: https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/

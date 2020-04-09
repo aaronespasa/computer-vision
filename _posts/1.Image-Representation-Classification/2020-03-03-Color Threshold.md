@@ -165,7 +165,7 @@ plt.imshow(image)
 
 
 
-<img src="{{ "Color%20Threshold_13_1.png" | prepend: imgUrl }}" class="md_image" />)
+<img src="{{ "Color%20Threshold_13_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 ### Plot color channels

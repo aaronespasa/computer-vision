@@ -13,6 +13,16 @@ h6 {
   margin-top: 10px;
 }
 
+// Dark mode
+[data-theme="dark"] h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $h-color-dark;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
 }
@@ -63,12 +73,26 @@ p {
   font-size: 1.1em;
 }
 
+
 a {
   transition: all ease 0.2s;
   font-weight: 600;
   &:hover {
     color: $highlight-color;
     text-decoration: none;
+  }
+}
+
+// Dark mode
+[data-theme="dark"] p {
+  color: $p-color-dark;
+}
+
+[data-theme="dark"] a {
+  color: $a-color-dark;
+
+  &:hover {
+    color: $highlight-color;
   }
 }
 
@@ -131,6 +155,10 @@ ul {
   ul {
     list-style-type: circle;
   }
+}
+
+li::marker {
+  color: #fbce13;
 }
 
 ol {
