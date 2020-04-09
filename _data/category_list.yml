@@ -2,24 +2,24 @@
 
 introduction:
   name: Introducción
-  description: Desc0
+  description: ¿Qué es el computer vision y cuáles son algunas de sus aplicaciones?
 
 image-representation-classification:
   name: 1. Representación y clasificación de imágenes
-  description: Desc1
+  description: Visión superficial de cómo se reconocen patrones en las imágenes y cómo estas se expresan numéricamente.
 
 convolutional-filters-edge-detection:
   name: 2. Filtros convolucionales y detección de bordes
-  description: Desc2
+  description: Extraer la frecuencia de una imagen con la Transformada de Fourier, filtros low y high pass, desenfoque gaussiano, canny edge detector, hough transform y haar cascade classifier
 
 features-types-image-segmentation:
   name: 3. Tipos de características y segmentación de imágenes
-  description: Desc3
+  description: Cómo localizar una esquina, usar los contornos para dibujar límites alrededor de las partes de una imagen y agrupar los datos de las imágenes con K-means
 
 feature-vectors:
   name: 4. Vectores de características
-  description: Desc4
+  description: Algoritmos ORB y HOG explicados a detalle
 
 cnn-layers-feature-visualization:
   name: 5. Capas de CNN y visualización de características
-  description: Desc5
+  description: Descripción en progreso
