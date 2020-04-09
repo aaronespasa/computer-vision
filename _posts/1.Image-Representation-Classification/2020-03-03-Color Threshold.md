@@ -4,6 +4,7 @@ title: "Umbral de color"
 category: image-representation-classification
 author: aaron
 ---
+{% assign imgUrl = "/assets/1.Image-Representation-Classification/Color%20Threshold_files/" | prepend: site.baseurl%}
 
 # Color Threshold
 
@@ -48,8 +49,7 @@ plt.imshow(image_copy)
 
 
 
-
-![png](/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_3_1.png)
+<img src="{{ "Color%20Threshold_3_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 #### Define the color threshold
@@ -78,8 +78,7 @@ plt.imshow(mask, cmap="gray")
 
 
 
-
-![png](/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_7_1.png)
+<img src="{{ "Color%20Threshold_7_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 
@@ -99,8 +98,7 @@ plt.imshow(masked_image)
 
 
 
-
-![png](/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_8_1.png)
+<img src="{{ "Color%20Threshold_8_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 #### Mask and add a background image
@@ -128,8 +126,7 @@ plt.imshow(crop_bg)
 
 
 
-
-![png](/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_10_1.png)
+<img src="{{ "Color%20Threshold_10_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 
@@ -147,8 +144,7 @@ plt.imshow(complete_image)
 
 
 
-
-![png](/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_11_1.png)
+<img src="{{ "Color%20Threshold_11_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 # HSV Color Space, Balloons
@@ -170,8 +166,7 @@ plt.imshow(image)
 
 
 
-
-![png](/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_13_1.png)
+<img src="{{ "Color%20Threshold_13_1.png" | prepend: imgUrl }}" class="md_image" />)
 
 
 ### Plot color channels
@@ -202,8 +197,7 @@ ax3.imshow(b, cmap='gray')
 
 
 
-
-<img src="/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_15_1.png" style="width: 50%">
+<img src="{{ "Color%20Threshold_15_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 
@@ -234,8 +228,7 @@ ax3.imshow(v, cmap='gray')
     <matplotlib.image.AxesImage at 0x7f98ea449208>
 
 
-
-<img src="/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_16_1.png" style="width: 50%">
+<img src="{{ "Color%20Threshold_16_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 ### Define pink and hue selection thresholds
@@ -276,8 +269,7 @@ plt.imshow(masked_image)
 
 
 
-
-![png](/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_21_1.png)
+<img src="{{ "Color%20Threshold_21_1.png" | prepend: imgUrl }}" class="md_image" />
 
 
 
@@ -302,6 +294,4 @@ plt.imshow(masked_image)
 
 
 
-
-![png](/assets/1.Image-Representation-Classification/Color%20Threshold_files/Color%20Threshold_22_1.png)
-
+<img src="{{ "Color%20Threshold_22_1.png" | prepend: imgUrl }}" class="md_image" />
