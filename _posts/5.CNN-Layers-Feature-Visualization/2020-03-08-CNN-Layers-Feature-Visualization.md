@@ -16,7 +16,9 @@ Este tipo de red neuronal se encarga de encontrar y representar patrones en un e
 
 Una peculiaridad de esta red es que, en vez de enfocarse en los valores de los píxeles individualmente, se enfoca en un grupo de píxeles de un área de una imagen y aprende en ella los patrones espaciales.
 
+{{ 'CNN-Layers.png' | asset_url | img_tag }}
+
 <img src="{{ "CNN-Layers.png" | prepend: imgUrl }}" class="md_image"/>
 
-​															Imagen de @cezannec (GitHub)
+<p style="text-align:center">Imagen de @cezannec (GitHub)</p>
 

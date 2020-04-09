@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700|Poppins:500,600,800&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Muli:400,600,700|Poppins:500,600,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Muli:wght@400;600;700&family=Poppins:wght@500;600;800&display=swap');
 
 // Core variables
 $version: "0.5.8";
@@ -39,7 +40,16 @@ $error: #fa5246 !default;
 
 
 // Other colors
-$code-color: #d73e48 !default;
+$white-code-color: #f8f8f2 !default;
+$black-code-color: #272822 !default;
+$pink-code-color: #f92672 !default;
+$purple-code-color: #ae81ff !default;
+$red-code-color: #960050 !default;
+$green-code-color: #a6e22e !default;
+$brown-code-color: #75715e !default;
+$blue-code-color: #66d9ef !default;
+$yellow-code-color: #e6db74 !default;
+$code-bg-color: hsl(220, 13%, 18%) !default;
 $highgray-color-light: #ffe9b3 !default;
 $body-bg: $gray-color-light !default;
 $body-font-color: lighten($dark-color, 5%) !default;
@@ -58,6 +68,7 @@ $cjk-zh-hant-font-family: $base-font-family, "PingFang TC", "Hiragino Sans CNS",
 $cjk-jp-font-family: $base-font-family, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, $fallback-font-family !default;
 $cjk-ko-font-family: $base-font-family, "Malgun Gothic", $fallback-font-family !default;
 $body-font-family: $base-font-family !default;
+$code-font-family: "Fira Mono", -apple-system, system-ui, BlinkMacSystemF1ont, "Segoe UI", Roboto !default;
 
 $header-font-family: "Poppins", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
 

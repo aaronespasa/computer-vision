@@ -13,9 +13,12 @@ Para identificar objetos similares al cual hemos seleccionado podemos escoger un
 Para obtener vectores de características podemos observar la dirección de varios gradientes que se encuentran alrededor del punto central de una imagen, de esta forma obtendríamos una representación robusta de la forma del objeto.
 
 Ejemplos de gradient features:
+
 <img src="{{ "gradient-features.png" | prepend: imgUrl }}" class="md_image"/>
 
+<p style="text-align:center">Imagen de Udacity</p>
 
+<br/>
 
 ## Oriented FAST and Rotated BRIEF (ORB) Algorithm
 
@@ -30,7 +33,9 @@ Su procedimiento es el siguiente:
 
 <img src="{{ "orb.png" | prepend: imgUrl }}" class="md_image"/>
 
+<p style="text-align:center">Imagen de Udacity</p>
 
+<br/>
 
 ### Features from Accelerated Segments Test (FAST)
 
@@ -50,6 +55,8 @@ Procedimiento:
 La razón por la que FAST es tan eficiente es porque se aprovecha del hecho de que los mismos resultados pueden ser conseguidos comparando p a únicamente 4 píxeles equidistantes del círculo en vez de 16 píxeles rodeándole. De esta manera, p se convierte en un keypoint si hay al menos 2 píxeles luminosos o oscuros alrededor de él. Esto reduce el tiempo que se necesitaría para buscar en una imagen entera los keypoints.
 
 Los keypoints hallado por el algoritmo FAST nos proporcionan información sobre la localización de un objeto definiendo los bordes en la imagen. Sin embargo, aunque nos proporcionen la localización de los bordes, no nos dan ni su dirección ni el cambio de intensidad.
+
+<br/>
 
 ### Binary Robust Independet Elementary Features (BRIEF)
 
@@ -75,6 +82,8 @@ Procedimiento:
 
 5. Para el mismo keypoint vuelve a realizar los pasos 2, 3 y 4, asignando así más bits al descriptor hasta la longitud en bits del vector (256 bits).
 
+   <br/>
+
 ### Scale and Rotation Invariance
 
 Dada una imagen, el algoritmo ORB empieza por construir una imagen piramidal: Una representación multiescala de una sola imagen que consiste en una secuencia de imágenes de la primera pero en resoluciones distintas. Por lo que cada nivel en la pirámide corresponde a una imagen con una resolución inferior a la anterior por un factor de 2 (el segundo nivel es 1/2 el primero).
@@ -97,7 +106,7 @@ Después de haber localizado y dado una orientación a los keypoints, ORB utiliz
 
 El set de todos los feature vector de todos los keypoints encontrados en una imagen se denomina ORB descriptor.
 
-
+<br/>
 
 ### Feature Matching
 
@@ -125,7 +134,7 @@ El algoritmo de ORB es muy útil en la detección de caras ya que la variación 
 
 Para ver el algoritmo implementado, abrir el archivo "orb.ipynb".
 
-
+<br/>
 
 ## Histogram of Oriented Gradients (HOG)
 
@@ -147,4 +156,4 @@ Procedimiento del algoritmo HOG:
 
 
 
-Para ver el algoritmo implementado ver el archivo "hog.ipynb".
+Para ver el algoritmo implementado ver el archivo "Histogram of Oriented Gradients".

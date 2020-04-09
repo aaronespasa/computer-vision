@@ -65,7 +65,7 @@ p {
 
 a {
   transition: all ease 0.2s;
-  font-weight: 800;
+  font-weight: 600;
   &:hover {
     color: $highlight-color;
     text-decoration: none;
@@ -134,7 +134,7 @@ ul {
 }
 
 ol {
-  list-style: decimal inside;
+  list-style: decimal;
 
   ol {
     list-style-type: lower-alpha;
