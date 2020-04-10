@@ -16,6 +16,7 @@ code {
 // Dark mode
 [data-theme="dark"] code {
   background: $code-bg-color-dark;
+  border: 1px solid $code-border-color;
 }
 
 .highlight {

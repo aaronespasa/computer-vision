@@ -1,10 +1,10 @@
 {% if site.help_one_title == null %}
 {% else %}
 <div class="column col-12 text-center mt-16">
-  <h4>¿Quieres contactar conmigo?</h4>
+  <h4 class="more-help-title">¿Quieres contactar conmigo?</h4>
 </div>
 <div class="column col-4 col-sm-12 p-8 mb-8 col-mx-auto">
-  <h5>{{ site.help_one_title }}</h5>
+  <h5 class="more-help-section-title">{{ site.help_one_title }}</h5>
   <p>{{ site.help_one_content }}</p>
   <a href="{{ site.help_one_link }}">{{ site.help_one_button }} <i class='uil uil-arrow-right arrow-hover'></i></a>
 </div>
@@ -12,7 +12,7 @@
 {% if site.help_two_title == null %}
 {% else %}
 <div class="column col-4 col-sm-12 p-8 mb-8 col-mx-auto">
-  <h5>{{ site.help_two_title }}</h5>
+  <h5 class="more-help-section-title">{{ site.help_two_title }}</h5>
   <p>{{ site.help_two_content }}</p>
   <a href="{{ site.help_two_link }}" target="_blank">{{ site.help_two_button}} <i class='uil uil-arrow-right arrow-hover'></i></a>
 </div>
