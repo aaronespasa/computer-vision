@@ -63,8 +63,6 @@ import torch.nn as nn
 import torch.nn.fuctional as F
 ```
 
-
-
 ```python
 class Net(nn.Module):
     
