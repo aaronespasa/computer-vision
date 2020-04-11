@@ -1,3 +1,10 @@
+---
+layout: post
+title: CNN Básica con Pytorch
+category: cnn-layers-feature-visualization
+author: aaron
+---
+{% assign imgUrl = "/assets/5.CNN-Layers-Feature-Visualization/pytorch_basic_nn_files/" | prepend: site.baseurl%}
 ```python
 import cv2
 import numpy as np
@@ -23,8 +30,7 @@ plt.imshow(gray_img, cmap="gray")
 plt.show()
 ```
 
-
-![png](pytorch_basic_nn_files/pytorch_basic_nn_1_0.png)
+<img src="{{ "pytorch_basic_nn_1_0.png" | prepend: imgUrl }}" class="md_image"/>
 
 
 ### Definir y visualizar filtros
@@ -59,7 +65,7 @@ for i in range(4):
 ```
 
 
-![png](pytorch_basic_nn_files/pytorch_basic_nn_4_0.png)
+<img src="{{ "pytorch_basic_nn_4_0.png" | prepend: imgUrl }}" class="md_image"/>
 
 
 ### Definir una convolutional layer
@@ -135,15 +141,15 @@ visualize_layer(conv_layer)
 ```
 
 
-![png](pytorch_basic_nn_files/pytorch_basic_nn_9_0.png)
+<img src="{{ "pytorch_basic_nn_9_0.png" | prepend: imgUrl }}" class="md_image"/>
 
 
 
-![png](pytorch_basic_nn_files/pytorch_basic_nn_9_1.png)
+<img src="{{ "pytorch_basic_nn_9_1.png" | prepend: imgUrl }}" class="md_image"/>
 
 
 
-![png](pytorch_basic_nn_files/pytorch_basic_nn_9_2.png)
+<img src="{{ "pytorch_basic_nn_9_2.png" | prepend: imgUrl }}" class="md_image"/>
 
 
 
@@ -153,10 +159,4 @@ visualize_layer(activated_layer)
 ```
 
 
-![png](pytorch_basic_nn_files/pytorch_basic_nn_10_0.png)
-
-
-
-```python
-
-```
+<img src="{{ "pytorch_basic_nn_10_0.png" | prepend: imgUrl }}" class="md_image"/>
