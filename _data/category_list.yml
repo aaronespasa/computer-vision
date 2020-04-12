@@ -23,7 +23,3 @@ feature-vectors:
 cnn-layers-feature-visualization:
   name: 5. Capas de CNN y visualización de características
   description: Descripción en progreso
-
-pytorch:
-  name: 6. Pytorch
-  description: Conocimientos básicos de Pytorch
