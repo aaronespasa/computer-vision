@@ -22,7 +22,11 @@ feature-vectors:
 
 cnn-layers-feature-visualization:
   name: 5. Capas de CNN y visualización de características
-  description: Descripción en progreso
 
 advanced-cnn-arquitectures:
   name: 6. Arquitecturas de CNN avanzadas
+  description: Cómo detectan las CNN múltiples objetos y cuáles son las redes que lo hacen basándose en generar regiones de interés
+
+yolo:
+  name: 7. YOLO
+  description: Profundizando en una CNN que no se basa en region proposals
