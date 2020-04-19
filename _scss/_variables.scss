@@ -39,7 +39,7 @@ $warning: #FFCC00 !default;
 $error: #fa5246 !default;
 
 
-// Other colors
+// Code colors
 $white-code-color: #f8f8f2 !default;
 $black-code-color: #272822 !default;
 $pink-code-color: #f92672 !default;
@@ -51,11 +51,17 @@ $blue-code-color: #66d9ef !default;
 $yellow-code-color: #e6db74 !default;
 $code-bg-color: hsl(220, 13%, 18%) !default;
 $highgray-color-light: #ffe9b3 !default;
+
+// Other colors
 $body-bg: $gray-color-light !default;
 $body-font-color: lighten($dark-color, 5%) !default;
 $link-color: $primary-color !default;
 $link-color-dark: darken($link-color, 10%) !default;
 $link-color-light: lighten($link-color, 10%) !default;
+$easy-green: rgb(195, 214, 158);
+$easy-green-shadow: rgba(229, 255, 181, 0.3);
+$easy-brown: rgb(255, 208, 147);
+$easy-brown-shadow: rgba(248, 188, 110, 0.3);
 
 // Dark theme
 $bg-color-dark: #141d28;
@@ -67,6 +73,8 @@ $code-border-color: #2D465E;
 $h-color-dark: #F7B561;
 $p-color-dark: #A9AAAB;
 $a-color-dark: rgb(222, 222, 223);
+$easy-green-dark: rgba(186, 218, 121, 0.315);
+$easy-brown-dark: rgba(255, 182, 87, 0.3);
 
 // Fonts
 // Credit: https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/

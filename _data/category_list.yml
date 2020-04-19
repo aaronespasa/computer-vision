@@ -23,3 +23,6 @@ feature-vectors:
 cnn-layers-feature-visualization:
   name: 5. Capas de CNN y visualización de características
   description: Descripción en progreso
+
+advanced-cnn-arquitectures:
+  name: 6. Arquitecturas de CNN avanzadas

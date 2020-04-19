@@ -45,27 +45,9 @@
 .switch_button_container {
   display: flex;
   align-items: center;  
-  
-  p {
-    color: $white !important;
-    font-weight: bold;
-    font-size: .8rem;
-    cursor: text;
-    box-shadow: $light-shadow;
-    transition: all ease 0.2s;
-    white-space: nowrap;
-    align-self: center;
-    margin: 0;
-
-    &:hover {
-      color: $highlight-color;
-      text-decoration: none;
-      border-bottom: none;
-    }
-  }
 
   .switch {
-    width: 50px;
+    width: 58px;
     height: 30px;
     margin: 0 10px;
     position: relative;
@@ -75,22 +57,26 @@
     }
 
     & input:checked + .slider {
-      background-color: #ff278c;
+      background-color: #484848;
+      border: 4px solid #242424;
     }
 
     & input:checked + .slider:before {
       transform: translateX(20px);
+      background-color: #FFFDF2;
+      border: 3px solid #DEE1C5;
     }
   }
 
   .slider {
     position: absolute;
     cursor: pointer;
-    top: 0;
+    top: -8px;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #C0E6F6;
+    border: 4px solid #81C0D5;
     transition: .4s;
     border-radius: 34px;
 
@@ -101,7 +87,8 @@
       width: 20px;
       left: 5px;
       bottom: 5px;
-      background-color: $white;
+      background-color: #F5EB42;
+      border: 3px solid #E4C74D;
       transition: .4s;
       border-radius: 40px;
     }

@@ -110,7 +110,45 @@
   }
 }
 
+.cards-box:nth-child(-n+7) .card-link::before {
+  content: "Principiante";
+  font-size: .8em;
+  font-family: "Poppins", sans-serif;
+  width: 84px;
+  position: absolute;
+  right: 0;
+  margin: 10px 20px;
+  color: white;
+  text-align: center;
+  background-color: $easy-green;
+  border-radius: 5%;
+  box-shadow: 2px 1px 1px 0px $easy-green-shadow;
+}
+
+ .cards-box:nth-child(n+8) .card-link::before {
+  content: "Intermedio";
+  font-family: "Poppins", sans-serif;
+  font-size: .8em;
+  width: 78px;
+  position: absolute;
+  right: 0;
+  margin: 10px 20px;
+  color: white;
+  text-align: center;
+  background-color: $easy-brown;
+  border-radius: 5%;
+  box-shadow: 2px 1px 1px 0px $easy-brown-shadow;
+}
+
 // Dark mode
 [data-theme="dark"] .card{
   background: $card-bg-color-dark;
+}
+
+[data-theme="dark"] .cards-box:nth-child(-n+7) .card-link::before{
+  background-color: $easy-green-dark;
+}
+
+[data-theme="dark"] .cards-box:nth-child(n+8) .card-link::before {
+  background-color: $easy-brown-dark;
 }
