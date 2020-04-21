@@ -22,6 +22,7 @@ feature-vectors:
 
 cnn-layers-feature-visualization:
   name: 5. Capas de CNN y visualización de características
+  description:
 
 advanced-cnn-arquitectures:
   name: 6. Arquitecturas de CNN avanzadas
@@ -30,3 +31,7 @@ advanced-cnn-arquitectures:
 yolo:
   name: 7. YOLO
   description: Profundizando en una CNN que no se basa en region proposals
+
+rnn:
+  name: 8. RNN
+  description: 

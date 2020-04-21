@@ -227,3 +227,11 @@ dl {
 .muli {
   font-family: "Muli", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
 }
+
+.author-text {
+  color: rgb(24, 24, 24);
+}
+
+[data-theme="dark"] .author-text {
+  color: #fffffe;
+}
