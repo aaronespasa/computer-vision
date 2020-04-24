@@ -34,4 +34,8 @@ yolo:
 
 rnn:
   name: 8. RNN
-  description: 
+  description:
+
+lstm:
+  name: 9. LSTM
+  description:
