@@ -39,3 +39,35 @@ rnn:
 lstm:
   name: 9. LSTM
   description:
+
+hyperparameters:
+  name: 10. Hiperparámetros
+  description:
+
+image_captioning:
+  name: 11. Subtítulos de imágenes
+  description:
+
+motion-introduction:
+  name: 12. Introducción al movimiento
+  description:
+
+robot-localization:
+  name: 13. Localización del robot
+  description:
+
+2d-histogram-filter:
+  name: 14.Filtro de Histograma en 2D 
+  description:
+
+kalman-filters:
+  name: 15.Introducción a los filtros Kalman 
+  description:
+
+matrices-transformation-state:
+  name: 16.Matrices y transformaciones del estado 
+  description:
+
+simultaneous-localization-mapping:
+  name: 17. Localización y mapeo simultáneo
+  description:
